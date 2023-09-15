@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+/* 'Nanum Pen Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* 'Courgette', cursive; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Navcont{
+    width: 100%;
+    background-color: #85944B;
+    height: 1%;
+    display: flex;
+    overflow: auto;
+}
+
+.Logocont{
+    width: 50%;
+}
+
+.logo{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.NavEl{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.NavEl a{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.NavEl a{
+    display: block;
+    padding: 15px;
+    margin: 0 10px;
+    float: right;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Nanum Pen Script', cursive;
+    text-shadow: rgb(48, 85, 98) 2px 2px;  
+ }
+
+ .NavEl a:hover {
+    background-color: #3B4D20;
+  }
+
+  .Active{
+    background-color: #3B4D20;
+  }
+
+  .present{
+    width: 100%;
+    height: 800px;
+    background-color: #D2D6A3;
+  }
+
+  .Prinp-cont{
+    width: 100%;
+    height: 800px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .title-cont{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
+  .title-cont p{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    color: #ffff;
+    text-shadow: #3B4D20 3px 3px;
+  }
+
+  .title-cont h1{
+    font-size: 6rem;
+    font-family: 'Courgette', cursive;
+    color: #ffff;
+    text-shadow: #3B4D20 3px 3px;
+  }
+
+.firstpic-cont{
+    width: 50%;
+  }
+
+  .Firstpic{
+    width: 700px;
+    height: 550px;
+  }
+
+  .buttons{
+    width: 50%;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-evenly;
+  }
+
+  .buttons a{
+    background-color: #F1F4D8;
+    border: 1px solid transparent;
+    padding: 5px 15px;
+    border-radius: 20px;
+  }
+
+  .icons{
+    width: 55px;
+  }
+  
+  .Separ-one{
+    width: 100%;
+    height: 100px;
+    background-color: #a39991;
+    background-image: url(./Imagenes/dksep.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 50% 50%
+  }
+
+
+
+
+
+  @media (max-width: 768px){
+    .Navcont{
+      width: 100%;
+
+    }
+
+    .Logocont{
+      display: none;
+    }
+   
+
+    .NavEl{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    
+
+  }
+
+
+  
+
+  
+
+
+
+
+
+
+  
+
+
